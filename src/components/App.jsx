@@ -3,8 +3,8 @@ import css from "./App.module.css";
 
 function App() {
   return (
-    <div>
-      <p>New project.</p>
+    <div className={css.root}>
+      <h1 className={css.title}>New project.</h1>
     </div>
   );
 }

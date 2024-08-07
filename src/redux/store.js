@@ -11,7 +11,7 @@ import { configureStore } from "@reduxjs/toolkit";
 
 export default configureStore({
   reducer: {
-    // contacts: contactsReducer,
+    contacts: contactsReducer,
     // filter: filterReducer,
   },
 });
