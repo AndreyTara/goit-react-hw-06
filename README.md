@@ -1,3 +1,9 @@
+# npm i react-icons
+
+# formik
+
+# yup
+
 # https://react-redux.js.org/tutorials/quick-start
 
 # React + Vite

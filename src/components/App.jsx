@@ -1,10 +1,17 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
+import initialContacts from "../assets/contacts.json";
 import css from "./App.module.css";
+import ContactForm from "./ContactForm/ContactForm";
+import SearchBox from "./SearchBox/SearchBox";
+import ContactList from "./ContactList/ContactList";
 
 function App() {
   return (
     <div className={css.root}>
-      <h1 className={css.title}>New project.</h1>
+      <h1>Contacts book</h1>
+      <ContactForm />
+      <ContactList />
+      <SearchBox />
     </div>
   );
 }
