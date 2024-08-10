@@ -5,7 +5,6 @@ import { changeFilter } from "../../redux/contacts/filtersSlice.js";
 
 const SearchBox = () => {
   const filter = useSelector(selectFilter);
-  console.log(filter);
   const dispatch = useDispatch();
   return (
     <div className={css.wrapSearch}>
@@ -17,7 +16,7 @@ const SearchBox = () => {
           name="name"
           placeholder="Search..."
           value={filter}
-          onChange={(e = dispatch(changeFilter(e.target.value)))}
+          onChange={(e) => dispatch(changeFilter(e.target.value))}
         />
       </label>
     </div>

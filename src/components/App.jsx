@@ -10,8 +10,8 @@ function App() {
     <div className={css.root}>
       <h1>Contacts book</h1>
       <ContactForm />
-      <ContactList />
       <SearchBox />
+      <ContactList />
     </div>
   );
 }

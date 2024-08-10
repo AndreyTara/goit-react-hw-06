@@ -1,3 +1,5 @@
+# https://redux-toolkit.js.org/rtk-query/usage/persistence-and-rehydration#redux-persist
+
 # npm i react-icons
 
 # formik
